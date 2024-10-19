@@ -1,0 +1,27 @@
+
+.slide4{
+    display: flex;
+    height: 100%;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #180118;
+}
+.list-items{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    max-width: 100%;  
+    overflow: hidden;
+    color: #ffff;
+}
+.list-items li {
+background-image:linear-gradient(rgb(50, 83, 133),rgb(67, 23, 80));
+margin-left: 15px;
+padding: 15px;
+font-size: 20px;
+min-width: max-content;
+width: 100%;
+border-radius: 5px;
+
+}
